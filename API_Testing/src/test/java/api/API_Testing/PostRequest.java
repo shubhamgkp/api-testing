@@ -1,5 +1,11 @@
 package api.API_Testing;
 
+import static com.jayway.restassured.RestAssured.*;
+
+import com.jayway.restassured.http.ContentType;
+import com.jayway.restassured.response.Response;
+
+
 public class PostRequest {
 
 	public static void main(String[] args) {
@@ -23,15 +29,16 @@ public class PostRequest {
 		bd.setEmpDet(empDet);
 		bd.setAdr(adr);
 		
+		Response res = 
 		given()
-		.c
+		.contentType(ContentType.JSON)
+		.body(bd)
 		
+		.when()
+		.post("http://localhost:3000/posts/");
 		
-		
-		
-		
-		
-		
+		System.out.println(res.statusCode());
+		System.out.println(res.asString());	
 		
 	}
 }
