@@ -1,17 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3177" started-at="2019-03-23T08:34:28Z" finished-at="2019-03-23T08:34:31Z">
+  <suite name="Default suite" duration-ms="3543" started-at="2019-03-26T20:32:49Z" finished-at="2019-03-26T20:32:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3177" started-at="2019-03-23T08:34:28Z" finished-at="2019-03-23T08:34:31Z">
-      <class name="api.API_Testing.ComJsonPostGetDel">
-        <test-method status="PASS" signature="postCompJsonGetDel()[pri:0, instance:api.API_Testing.ComJsonPostGetDel@28d25987]" name="postCompJsonGetDel" duration-ms="3138" started-at="2019-03-23T08:34:28Z" finished-at="2019-03-23T08:34:31Z">
+    <test name="Default test" duration-ms="3543" started-at="2019-03-26T20:32:49Z" finished-at="2019-03-26T20:32:52Z">
+      <class name="api.API_Testing.GetRequestSaveResInFile2">
+        <test-method status="PASS" signature="apiTest(java.lang.Integer)[pri:0, instance:api.API_Testing.GetRequestSaveResInFile2@61832929]" name="apiTest" duration-ms="2267" started-at="2019-03-26T20:32:49Z" data-provider="requestId" finished-at="2019-03-26T20:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postCompJsonGetDel -->
-      </class> <!-- api.API_Testing.ComJsonPostGetDel -->
+        </test-method> <!-- apiTest -->
+        <test-method status="PASS" signature="apiTest(java.lang.Integer)[pri:0, instance:api.API_Testing.GetRequestSaveResInFile2@61832929]" name="apiTest" duration-ms="163" started-at="2019-03-26T20:32:51Z" data-provider="requestId" finished-at="2019-03-26T20:32:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiTest -->
+        <test-method status="PASS" signature="apiTest(java.lang.Integer)[pri:0, instance:api.API_Testing.GetRequestSaveResInFile2@61832929]" name="apiTest" duration-ms="152" started-at="2019-03-26T20:32:52Z" data-provider="requestId" finished-at="2019-03-26T20:32:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiTest -->
+        <test-method status="PASS" signature="apiTest(java.lang.Integer)[pri:0, instance:api.API_Testing.GetRequestSaveResInFile2@61832929]" name="apiTest" duration-ms="133" started-at="2019-03-26T20:32:52Z" data-provider="requestId" finished-at="2019-03-26T20:32:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiTest -->
+        <test-method status="PASS" signature="apiTest(java.lang.Integer)[pri:0, instance:api.API_Testing.GetRequestSaveResInFile2@61832929]" name="apiTest" duration-ms="144" started-at="2019-03-26T20:32:52Z" data-provider="requestId" finished-at="2019-03-26T20:32:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiTest -->
+      </class> <!-- api.API_Testing.GetRequestSaveResInFile2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
