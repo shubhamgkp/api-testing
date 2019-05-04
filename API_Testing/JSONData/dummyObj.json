@@ -1,0 +1,21 @@
+{
+	"Personal Details": {
+		"firstname": "Shubham",
+		"lastname": "Verma",
+		"age": 29
+	},
+	"adr": [{
+			"state": "UP",
+			"street": "Sector 55",
+			"hoNo": 7,
+			"city": "Meerut"
+		},
+		{
+			"state": "UP",
+			"street": "Sector 56",
+			"hoNo": 7,
+			"city": "Meerut"
+		}
+	],
+	"id": 20
+}

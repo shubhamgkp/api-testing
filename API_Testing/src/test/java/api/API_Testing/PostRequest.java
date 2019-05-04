@@ -10,6 +10,7 @@ public class PostRequest {
 
 	public static void main(String[] args) {
 
+		
 		EmpDetails empDet = new EmpDetails();
 		empDet.setEmpID(1234);
 		empDet.setDoj("01-March-2019");
@@ -23,7 +24,7 @@ public class PostRequest {
 		adr.setState("Haryana");
 		
 		BasicDetails bd = new BasicDetails();
-		bd.setFirstName("Shubham");
+		bd.setFirstName("ShubhamNew");
 		bd.setLastName("Verma");
 		bd.setAge(30);
 		bd.setEmpDet(empDet);

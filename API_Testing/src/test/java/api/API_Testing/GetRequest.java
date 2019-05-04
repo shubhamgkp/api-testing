@@ -31,9 +31,9 @@ public class GetRequest {
 				.when()
 				.get("http://localhost:3000/posts/5");
 
-		System.out.println(res.getStatusCode());		
+
+		System.out.println(res.getStatusCode()); 
 		System.out.println(res.asString());
 		
-		System.out.println(res.jsonPath().get("empDet.designation"));
 	}
 }
