@@ -1,0 +1,52 @@
+{
+	"friends": [{
+			"id": "RSG",
+			"firstname": "Ridhi",
+			"lastname": "Gambhir",
+			"age": 30,
+			"designation": "QA Manager"
+		},
+		{
+			"id": "Amit010184",
+			"firstname": "Amit",
+			"lastname": "Grover",
+			"age": 35,
+			"designation": "SAP"
+		},
+		{
+			"id": "Parth111209",
+			"firstname": "Parth",
+			"lastname": "Chawla",
+			"age": 9,
+			"designation": "Fiveth"
+		},
+		{
+			"id": "lucky111209",
+			"firstname": "lucky",
+			"lastname": "gambhir",
+			"age": 28,
+			"designation": "Employee",
+			"addressdetails": [{
+					"house_no": "N-9",
+					"sec": 28,
+					"street_no": 9,
+					"ward_no": "Paschim Test"
+				},
+				{
+					"house_no": "N-10",
+					"sec": 27,
+					"street_no": 10,
+					"ward_no": "Test Vihar"
+				}
+			]
+		}
+	],
+	"comments": [{
+		"id": 1,
+		"body": "some comment",
+		"postId": 1
+	}],
+	"profile": {
+		"name": "typicode"
+	}
+}
